@@ -1,5 +1,6 @@
 /*Definindo minhas variáveis globais*/
 :root {
+
     --color-background: #F0F0F7;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
@@ -53,4 +54,11 @@ textarea{
 #container{
     width: 90vw;/*Se adapta ao tamanho do width da tela sempre ocupando 90% da tela*/
     max-width: 700px;/*Tem no máximo 700 px de largura!*/
+}
+
+@media(min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
+
 }
